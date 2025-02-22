@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/main.css">
+    <title>Form</title>
+</head>
+<body>
+    
+    <table class="center">
+        <th><header>Form</header></th>
+        <form class="center">
+          <tr>
+            <td><label for="firstname">First Name: </label><input type="text" required></td>           
+          </tr>
+          <tr><td><label for="firstname">Last Name: </label><input type="text" required></td></tr>
+          <tr>
+            <td><label for="Email">Email address: </label><input type="text" required></td>
+          </tr>
+          <tr>
+            <td>
+            <label>Select Gender:</label>
+            <input type="radio" id = "male" name="gender" required>
+            <label for = "male">Male</label>
+            <input type="radio" id = "female" name="gender" aria-atomic="true">
+            <label for = "female">Female</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+            <label for="address">Address: </label><span><input type="text" id="largewidth"><input type="text" id="largewidth"></span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+                <label for="input">Upload Picture: </label><input type="file">
+            </td>
+          </tr>
+          <tr>
+            <td>
+                <label for="input">Choose your Color Scheme </label><input type="color">
+            </td>
+          </tr>
+          <tr>
+            <td>
+                <label for="Date">Date: </label><input type="date">
+            </td>
+            <td>
+                <label for="month">Month: </label><input type="month">
+            </td>
+          </tr>
+          
+          <tr>
+            <td>
+                <label for="year">Your Fav. Number </label><input type="number">
+            </td>
+          </tr>
+          <tr>
+            <td>
+                <label for="Mobile">Mobile: </label><input type="tel">
+            </td>
+          </tr>
+          <tr>
+            <td>
+                <label for="Password">Password: </label><input type="password">
+            </td>
+          </tr>
+          <tr>
+            <td>
+                <label for="input">Intesity: </label><input type="range">
+            </td>
+          </tr>
+          <tr>
+            <td>
+                <label for="reset">Reset Form - </label><input type="reset">
+            </td>
+          </tr>
+          <tr>
+            <td>
+                <input type="submit">
+            </td>
+          </tr>
+        </form>
+    </table>
+
+</body>
+</html>
